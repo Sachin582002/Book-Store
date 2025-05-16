@@ -1,6 +1,9 @@
-const CreatePage = ()=>{
-    return(
-        <h1>This is Create page.</h1>
+import Navbar from "../components/Navbar"
+
+
+function CreatePage(){
+    return (
+       <Navbar />
     )
 }
 export default CreatePage

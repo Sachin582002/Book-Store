@@ -1,6 +1,27 @@
-const HomePage = ()=>{
+import Button from "../components/Button"
+import Card from "../components/Card"
+import Navbar from "../components/Navbar"
+
+function HomePage(){
     return(
-        <h1 className="bg-blue-950 text-blue-500">This is Home page.</h1>
+       <>
+      <Navbar />
+      <div className="flex flex-wrap">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+       </>
     )
 }
+
 export default HomePage

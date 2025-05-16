@@ -1,6 +1,13 @@
-const SinglePage = ()=>{
+import Navbar from "../components/Navbar"
+
+
+function SinglePage(){
     return(
-        <h1>This is Single page.</h1>
+        <>
+       <Navbar />
+        <h1>this is single page</h1>
+        </>
     )
 }
+
 export default SinglePage
